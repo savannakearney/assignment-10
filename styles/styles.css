@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFD9EC;
+  font-family: Calibri, Arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+   clear: both;
+}
+
+.seasons {
+  max-width: 250px;
+  float: left;
+  margin-left: 50px;
+}
+
+@media screen (min-width: 800px) {
+  .seasons {
+    float: none;
+    margin: auto;
+  }
+}
