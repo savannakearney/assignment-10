@@ -13,6 +13,7 @@ h1 {
 }
 
 p {
+  padding: 20px;
   text-align: center;
 }
 
@@ -28,6 +29,10 @@ p {
   max-width: 250px;
   float: left;
   margin-left: 50px;
+}
+
+article {
+  padding-top: 40%;
 }
 
 @media screen (min-width: 800px) {
